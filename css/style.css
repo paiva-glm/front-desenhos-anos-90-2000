@@ -1,29 +1,45 @@
 *{
     margin: 0%;
     padding: 0%;
+    contain: content;
 }
 
 
 #head{
     background-color: #000000;
     width: 100vw;
-    min-height: 4vh;
+    min-height: 5vh;
 }
 
-#content-div-header{
-    margin-left: 15rem;
-}
-
-#content-div-header ul{
+#head ul{
     display: flex;
     align-items: center;
-    height: 4vh;
+    min-height: 5vh;
+    margin-left: 10vw;
 }
 
-#content-div-header ul li{
+#head ul li{
     color: azure;
     list-style: none;
-    font-size: 1.3rem;
-    margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-left: 2vw;
     letter-spacing: 3px;
+}
+
+#banner1{
+    width: 100vw;
+    min-height: 50vh;
+    background-image: url("/assets/marvelLogo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-color: #b40001;
+}
+
+
+
+#foot{
+    background-color: gray;
+    width: 100vw;
+    min-height: 25vh;
 }
