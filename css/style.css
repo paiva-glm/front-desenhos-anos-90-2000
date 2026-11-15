@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+#head{
+    background-color: #000000;
+    width: 100vw;
+    min-height: 4vh;
+}
+
+#content-div-header{
+    margin-left: 15rem;
+}
+
+#content-div-header ul{
+    display: flex;
+    align-items: center;
+    height: 4vh;
+}
+
+#content-div-header ul li{
+    color: azure;
+    list-style: none;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    letter-spacing: 3px;
+}
