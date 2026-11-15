@@ -35,7 +35,25 @@
     background-size: contain;
     background-color: #b40001;
 }
+#personagens{
+    width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
 
+#conteudo{
+    width: 95vw;
+    min-height: 80vh;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    border-color: #000000;
+    border-style: outset;
+    background-color: azure;
+    
+}
 
 
 #foot{
